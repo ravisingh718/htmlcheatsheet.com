@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet created with ❤ By Ravi Ranjan </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+</head>
+<body>
+    <nav>
+        <span class="logo"><img src="logo1.png" alt=""></span>
+        <div class="content center">
+            This HTML CheatSheet is for You!
+        </div> 
+    </nav>
+    <div class="container">
+
+<!-- The Cheat sheet Body starts here!!! -->
+      
+        <!-- Structure -->
+
+        <h2 >Structure</h2>
+        <p>This is the basic template or barebone structure of HTML</p></br>
+        <ul>
+            <li>HTML Boilerplate</li>
+            <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+                    
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></br>
+
+            <!-- Headings -->
+            
+            <h2>Headings</h2>
+            <p>There are six headings available in HTML, H1 is the largest among all, and H6 is the smallest.</p></br>
+
+            <strong>
+                <li> &lt;h1&gt; Tag </li>
+            </strong>           
+            <pre class="language-html"><code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code></pre></br>
+            <strong>
+                <li> &lt;h2&gt; Tag </li>
+            </strong>          
+            <pre class="language-html"><code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code></pre></br>
+           <strong>
+               <li> &lt;h3&gt; Tag </li>
+           </strong>
+            <pre class="language-html"><code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code></pre></br>
+           <strong>
+               <li> &lt;h4&gt; Tag </li>
+           </strong>
+            <pre class="language-html"><code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code></pre></br>
+           <strong>
+               <li> &lt;h5&gt; Tag </li>
+           </strong>
+            <pre class="language-html"><code>&lt;h5&gt;Heading 5&lt;/h5&gt;</code></pre></br>
+           <strong>
+               <li> &lt;h6&gt; Tag </li>
+           </strong>
+            <pre class="language-html"><code>&lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre></br>
+            
+            <!-- Container -->
+            
+            <h2>Container</h2>
+            <p>Container tags are the tags that contain some data such as text, image, etc. There are several container tags in HTML.</p></br>
+           
+            <h2>div tag</h2>
+            <p>div tag or division tag is used to make blocks or divisions in the document.</p></br>
+            <pre class="language-html"><code>&lt;div&gt;This is div block&lt;/div&gt;</code></pre></br>
+           
+            <h2>span tag</h2>
+            <p>span is a container for inline content</p></br>
+            <pre class="language-html"><code>&lt;span&gt;This is span block&lt;/span&gt;</code></pre></br>
+
+            <h2>Horizontal Rules &lt;hr&gt; tag</h2>
+            <p>span is a container for inline content</p></br>
+            <pre class="language-html"><code>&lt;h1&gt;This is heading 1&lt;/h1&gt;
+&lt;p&gt;This is some text.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;This is heading 2&lt;/h2&gt;
+&lt;p&gt;This is some other text.&lt;/p&gt;
+&lt;hr&gt;
+</code></pre></br>
+
+            <h2>Line Breaks &lt;br&gt; tag</h2>
+            <p>span is a container for inline content</p></br>
+            <pre class="language-html"><code>&lt;p&gt;This is&lt;br&gt;a paragraph&lt;br&gt;with line breaks.&lt;/p&gt;</code></pre></br>
+          
+            <h2>p tag</h2>
+            <p>Paragraph</p></br>
+            <pre class="language-html"><code>&lt;p&gt;This is a paragraph &lt;/p&gt;</code></pre></br>
+           
+            <h2>pre tag</h2>
+            <p>&lt;pre&gt tag represents pre-formatted text</p></br>
+            <p>The text inside a &lt;pre&gt element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:</p></br>
+            
+            <pre class="language-html"><code>&lt;pre&gt; 
+       My Bonnie lies over the ocean.
+
+       My Bonnie lies over the sea.
+              
+       My Bonnie lies over the ocean.
+              
+       Oh, bring back my Bonnie to me.
+&lt;/pre&gt;</code></pre></br>
+           
+            <h2>code tag</h2>
+            <p>code tag is used to represent source codes</p></br>
+            <pre class="language-html"><code>&lt;code&gt;import python &lt;/code&gt;</code></pre></br>
+            
+            <!-- Formating Elements -->
+            
+            <h2>Formatting Elements</h2>
+            <p>
+                <strong>
+                    Formatting elements were designed to display special types of text: 
+                    <li>&lt;b&gt; - Bold text</li>
+                    <li>&lt;strong&gt; - Important text</li>
+                    <li>&lt;i&gt; - Italic text</li>
+                    <li>&lt;em&gt; - Emphasized text</li>
+                    <li>&lt;mark&gt; - Marked text</li>
+                    <li>&lt;small&gt; - Smaller text</li>
+                    <li>&lt;del&gt; - Deleted text</li>
+                    <li>&lt;ins&gt; - Inserted text</li>
+                    <li>&lt;sub&gt; - Subscript text</li>
+                    <li>&lt;sup&gt; - Superscript text.</li>
+                </strong></br>
+            </p>
+            <strong>
+                <li> &lt;b&gt; Tag </li>
+            </strong>
+            <pre class="language-html"><code>&lt;b&gt;I'm bold text&lt;/b&gt;</code></pre></br>
+           
+            <h2></h2>
+            <strong>
+                <li> &lt;strong&gt; Tag </li>
+            </strong></br>
+            <p>The HTML&lt;strong&gt; <strong> element defines text with strong importance. The content inside is typically displayed in bold.</strong>&lt;strong&gt;</p>
+            <pre class="language-html"><code>&lt; strong&gt;I'm important text&lt;/strong &gt;</code></pre></br>
+            
+            <h2></h2>
+            <strong>
+                <li> &lt;i&gt; Tag </li>
+            </strong></br>
+            <p>The HTML &lt;i&gt;<i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.</i>&lt;i&gt;</p>
+            <pre class="language-html"><code>&lt;i&gt;I'm italic text&lt;/i&gt;</code></pre></br>
+           
+            <h2></h2>
+            <strong>
+                <li> &lt;em&gt; Tag </li>
+            </strong></br>
+            <p>The HTML &lt;em&gt;<em> element defines emphasized text. The content inside is typically displayed in italic.</em>&lt;em&gt;</p></br>
+            <pre class="language-html"><code>&lt;em&gt;Emphasized text&lt;/em&gt;</code></pre>
+
+            <h2></h2>
+            <strong>
+                <li> &lt;mark&gt; Tag </li>
+            </strong></br>
+            <p>The HTML &lt;mark&gt;<mark> element defines text that should be marked or highlighted:</mark>&lt;/mark&gt;</p>
+            <pre class="language-html"><code>&lt;p&gt;Do not forget to buy &lt;mark&gt; milk &lt;/mark&gt; today.&lt;/p&gt;</code></pre></br>
+
+            <h2></h2>
+            <strong>
+                <li> &lt;small&gt; Tag </li>
+            </strong></br>
+            <p>The HTML &lt;small&gt;<small> element defines smaller text:</small>&lt;/small&gt;</p>
+            <pre class="language-html"><code>&lt;small&gt;This is some smaller text. &lt;/small&gt;</code></pre></br>
+
+            <h2></h2>
+            <strong>
+                <li> &lt;del&gt; Tag </li>
+            </strong></br>
+            <p>The HTML &lt;del&gt;<del> element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:</del>&lt;/del&gt;</p>
+            <pre class="language-html"><code>&lt;p&gt;My favorite color is &lt;del&gt; blue &lt;/del&gt; red.&lt;/p&gt;</code></pre></br>
+
+            <h2></h2>
+            <strong>
+                <li> &lt;del&gt; Tag </li>
+            </strong></br>
+            <p>The HTML &lt;ins&gt;<ins> element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:</ins>&lt;/ins&gt;</p>
+            <pre class="language-html"><code>&lt;p&gt;My favorite color is &lt;del&gt; blue &lt;/del&gt; &lt;ins&gt; red.&lt;/ins&gt;&lt;/p&gt;</code></pre></br>
+            
+           
+            <h2></h2>
+            <strong>
+                <li> &lt;sub&gt; Tag </li>
+            </strong></br>
+            <p>The HTML &lt;sub&gt; element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H<sub>2</sub>O:&lt;/sub&gt;</p>
+            <pre class="language-html"><code>&lt;sub&gt;Subscript&lt;/sub&gt;</code></pre></br>
+
+            <h2></h2>
+            <strong>
+                <li> &lt;sup&gt; Tag </li>
+            </strong>
+            <p>The HTML &lt;sup&gt; element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW<sup>[1]</sup>&lt;/sup&gt;</p></br>
+            <pre class="language-html"><code>&lt;sup&gt;Superscript&lt;/sup&gt;</code></pre></br>
+
+            <!-- end of formating elements -->
+
+            <!-- Quotation and Citation Elements -->
+
+            <h2>Quotation and Citation Elements</h2>
+            <p>we will go through the &lt;blockquote&gt;,&lt;blockquote&gt;,&lt;q&gt;,&lt;abbr&gt;,&lt;address&gt;,&lt;cite&gt;,&lt;bdo&gt; HTML elements.</p></br>
+            
+            <strong>
+                <li>&lt;blockquote&gt; tag for Quotations  </li>
+            </strong>
+            <p>The HTML &lt;blockquote&gt; element defines a section that is quoted from another source.</br></br>
+            Browsers usually indent &lt;blockquote&gt; elements.</p></br>
+            <pre class="language-html"><code>&lt;p&gt;Here is a quote from WWF's website:&lt;/p&gt;
+&lt;blockquote cite="http://www.worldwildlife.org/who/index.html"&gt;
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+&lt;blockquote&gt;</code></pre></br>
+
+            <strong>
+                <li>&lt;q&gt; tag for Short Quotations  </li>
+            </strong>
+            <p>The HTML &lt;q&gt; tag defines a short quotqtion.</br></br>
+            Browsers normally insert quotation marks around the <q>quotation.</q> </p></br>
+            <pre class="language-html"><code>&lt;p&gt;WWF's goal is to: &lt;q&gt;Build a future where people live in harmony with nature.&lt;/q&gt;&lt;/p&gt;</code></pre></br>
+
+            <strong>
+                <li>&lt;abbr&gt; tag for Abbreviations </li>
+            </strong>
+            <p>The HTML &lt;abbr&gt; tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</p></br>
+            <pre class="language-html"><code>&lt;p&gt;The &lt;abbr title="World Health Organization"&gt; WHO &lt;/abbr&gt; was founded in 1948.&lt;/p&gt;</code></pre></br>
+
+            <strong>
+                <li>&lt;address&gt; tag for Contact Information  </li>
+            </strong>
+            <p>The HTML &lt;address&gt; tag defines the contact information for the author/owner of a document or an article.</p>
+            <p>The contact information can be an email address, URL, physical address, phone number, social media handle, etc.</p>
+            <p>The text in the &lt;address&gt; element usually renders in italic, and browsers will always add a line break before and after the &lt;address&gt; element.</p></br>
+            <pre class="language-html"><code>&lt;address&gt;
+Written by Ravi Ranjan.&lt;br&gt;
+Visit us at:&lt;br&gt;
+Example.com&lt;br&gt;
+Flat no- 402, Khoda Colony&lt;br&gt;
+INDIA
+&lt;/address&gt;</code></pre></br>
+
+            <strong>
+                <li>&lt;cite&gt; tag for Work Title  </li>
+            </strong>
+            <p>The HTML &lt;cite&gt; tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).</p></br>
+            <pre class="language-html"><code>&lt;p&gt;&lt;cite&gt;The Scream&lt;cite&gt; by Edvard Munch. Painted in 1893.&lt;/p&gt;</code></pre></br>
+
+            <strong>
+                <li>&lt;bdo&gt; tag for Short Quotations  </li>
+            </strong>
+            <p>BDO stands for Bi-Directional Override.</p>
+            <p>The HTML <bdo> tag is used to override the current text direction:</p></br>
+            <pre class="language-html"><code>&lt;bdo dir="rtl"&gt;This text will be written from right to left&lt;/bdo&gt;</code></pre></br>
+
+            <!-- End of Quotation and Citation Elements -->
+
+            <!-- Lists -->
+            
+            <h2>Lists</h2>
+            <p>Lists can be either numerical, alphabetic, bullet, or other symbols. You can specify list type and list items in HTML for the clean document.</p></br>
+            <strong>
+                <li> &lt;ul&gt; Tag </li>
+            </strong>
+            <p>Unordered list starts with &lt;ul&gt; tag and each list item starts with &lt;li&gt;tag</p></br>
+            <pre class="language-html"><code>&lt;ol&gt
+    &lt;li&gtData 1&lt;/li&gt
+    &lt;li&gtData 2&lt;/li&gt
+    &lt;li&gtData 3&lt;/li&gt
+&lt;/ol&gt;</code></pre></br>
+           
+            <h2></h2>
+            <strong>
+                <li> &lt;ol&gt; Tag </li>
+            </strong>
+            <p>Ordered list starts with &lt;ol&gt; tag and each list item starts with &lt;li&gt;tag</p></br>
+            <pre class="language-html"><code>&lt;ul&gt;
+    &lt;li&gtData 1&lt;/li&gt
+    &lt;li&gtData 2&lt;/li&gt
+    &lt;li&gtData 3&lt;/li&gt
+&lt;/ul&gt;</code></pre></br>
+
+            <h2></h2>
+            <strong>
+                <li> &lt;dl&gt; Tag </li>
+            </strong>
+            <p>The &lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt; tag describes each term:</p></br>
+            <pre class="language-html"><code>&lt;dl&gt;
+    &lt;dt&gt;Coffee&lt;/dt&gt;
+    &lt;dd&gt;- black hot drink &lt;/dd&gt;
+    &lt;dt&gt;Milk&lt;/dt&gt;
+    &lt;dd&gt;- white cold drink &lt;/dd&gt;
+&lt;/dl&gt;</code></pre></br> 
+
+            <!-- end of list -->        
+
+            <!-- Media -->
+            
+            <h2>Media</h2>
+            <p>Media is anything that is present in digital form such as image, video, audio, etc.</p></br>
+            <strong>
+                <li> &lt;audio&gt; Tag </li>
+            </strong>
+            <p>It is used to embed sound content in the document.</p></br>
+            <pre class="language-html"><code>&lt;audio controls&gt
+&lt;source src="demo.mp3" type="audio/mpeg"&gt
+Your browser does not support the audio element.
+&lt;/audio&gt</code></pre></br>
+           
+            <strong>
+                <li> &lt;img&gt; Tag </li>
+            </strong>
+            <p>It is used to embed or import image in a webpage.</p></br>
+            <pre class="language-html"><code>&lt;img src="Source_of_image" alt="Alternate text" &gt;</code></pre></br>
+
+            <strong>
+                <li> &lt;video&gt; Tag </li>
+            </strong>
+            <p>It is used to embed video in the webpage.</p></br>
+            <pre class="language-html"><code>&lt;video width="480" height="320" controls&gt
+&lt;source src="demo_move.mp4" type="video/mp4"&gt
+Your browser does not support the video tag.
+&lt;/video&gt</code></pre></br>
+           
+            <!-- end of media -->
+            
+            <!-- Table -->
+            
+            <h2>Table</h2>
+            <p>A table is a collection of rows and columns. It is used to represent data in tabular form. </p></br>
+            <h2>Table Structure</h2>
+            <pre class="language-html"><code>&lt;table&gt
+&lt;caption&gtDemo Table&lt;/caption&gt
+&lt;thead&gt
+    &lt;tr&gt
+    &lt;th&gtColumn1&lt;/th&gt
+    &lt;th colspan="2"&gtColumn2&lt;/th&gt
+    &lt;/tr&gt
+&lt;/thead&gt
+&lt;tbody&gt
+    &lt;tr&gt
+    &lt;td&gtData1&lt;/td&gt
+    &lt;td&gtData2&lt;/td&gt
+    &lt;td&gtData2&lt;/td&gt
+    &lt;/tr&gt
+    &lt;tr&gt
+    &lt;td&gtData1&lt;/td&gt
+    &lt;td&gtData2&lt;/td&gt
+    &lt;td&gtData2&lt;/td&gt
+    &lt;/tr&gt
+&lt;/tbody&gt
+&lt;tfoot&gt
+    &lt;tr&gt
+    &lt;td&gt&nbsp;&lt;/td&gt
+    &lt;td&gtData&lt;/td&gt
+    &lt;td&gtData&lt;/td&gt\
+    &lt;/tr&gt
+&lt;/tfoot&gt
+&lt;/table&gt</code></pre></br>
+            
+            <!-- Links -->
+            
+            <h2>Links</h2>
+            <p>Links are clickable text that can redirect you to some other page.</p></br>
+            <strong>
+                <li> &lt;a&gt; Tag </li>
+            </strong>
+            <p>&lt;a&gt or anchor tag defines a hyperlink.</p></br>
+            <pre class="language-html"><code>&lt;a href="https://www.google.com/"&gt;Google Search Engine!&lt;/a&gt;</code></pre></br>
+            
+            <!-- Form -->
+            
+            <h2>Form</h2><br>
+            <h2>Text Fields</h2>
+            <p>The &lt;input type="text"&gt; defines a single-line input field for text input.</p></br>
+            <pre class="language-html"><code>&lt;form&gt;
+    &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
+    &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;
+    &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+    &lt;input type="text" id="lname" name="lname"&gt;
+&lt;/form&gt;</code></pre></br>
+
+            <h2>Radio Buttons</h2>
+            <p>The &lt;input type="radio"&gt; defines a radio button.</p>
+            <p>Radio buttons let a user select ONE of a limited number of choices.</p></br>
+            <pre class="language-html"><code>A form with radio buttons:
+
+&lt;p&gt;Choose your favorite Web language:&lt;/p&gt;
+
+&lt;form&gt;
+  &lt;input type="radio" id="html" name="fav_language" value="HTML"&gt;
+  &lt;label for="html"&gt;HTML&lt;/label&gt;&lt;br&gt;
+  &lt;input type="radio" id="css" name="fav_language" value="CSS"&gt;
+  &lt;label for="css"&gt;CSS&lt;/label&gt;&lt;br&gt;
+  &lt;input type="radio" id="javascript" name="fav_language" value="JavaScript"&gt;
+  &lt;label for="javascript"&gt;JavaScript&lt;/label&gt;
+&lt;/form&gt;</code></pre></br>
+              
+            <h2>Checkbox</h2>
+            <p>The &lt;input type="checkbox; defines a checkbox.</p>
+            <p>Checkboxes let a user select ZERO or MORE options of a limited number of choices.</p></br>
+            <pre class="language-html"><code>&lt;form&gt;
+    &lt;input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"&gt;
+    &lt;label for="vehicle1"&gt; I have a bike&lt;/label&gt;&lt;br&gt;
+    &lt;input type="checkbox" id="vehicle2" name="vehicle2" value="Car"&gt;
+    &lt;label for="vehicle2"&gt; I have a car&lt;/label&gt;&lt;br&gt;
+    &lt;input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"&gt;
+    &lt;label for="vehicle3"&gt; I have a boat&lt;/label&gt;
+  &lt;/form&gt;</code></pre></br>
+
+              <h2>Submit Button</h2>
+            <p>The &lt;input type="submit"&gt; defines a button for submitting the form data to a form-handler.</p></br>
+            <pre class="language-html"><code>&lt;form action="/action_page.php"&gt;
+    &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
+    &lt;input type="text" id="fname" name="fname" value="Ravi"&gt;&lt;br&gt;
+    &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+    &lt;input type="text" id="lname" name="lname" value="Singh"&gt;&lt;br&gt;&lt;br&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre></br>
+            
+            <h2>Sample Form</h2>
+            <p>Form is used to collect user's input, generally user's data is sent to server for further processing.</p></br>
+            <!-- <li> &lt;&gt; Tag </li> -->
+            <pre class="language-html"><code>&lt;form action="/action.php" method="post"&gt
+  Name: &lt;input name="name" type="text" /&gt &lt;br /&gt
+  Age: &lt;input max="90" min="1" name="age" step="1" type="number" value="18" /&gt &lt;br /&gt
+  &lt;select name="gender"&gt
+  &lt;option selected="selected" value="male"&gtMale&lt;/option&gt
+  &lt;option value="female"&gtFemale&lt;/option&gt
+  &lt;/select&gt&lt;br /&gt
+  &lt;input checked="checked" name="newsletter" type="radio" value="daily" /&gt Daily &lt;input name="newsletter"
+  type="radio" value="weekly" /&gt Weekly&lt;br /&gt
+  &lt;textarea cols="20" name="comments" rows="5"&gtComment&lt;/textarea&gt&lt;br /&gt
+  &lt;label&gt&lt;input name="terms" type="checkbox" value="tandc" /&gtAccept terms&lt;/label&gt &lt;br /&gt
+  &lt;input type="submit" value="Submit" /&gt
+&lt;/form&gt</code></pre></br>
+
+            <!-- End of Form -->
+
+            <!-- Characters & Symbols -->
+
+            <h2>Characters & Symbols</h2>
+            <p>Some symbols are not directly present on the keyboard, but there are some ways to use them in HTML documents. We can display them either by entity name, decimal, or hexadecimal value.</p></br>
+            <h2>Copyright Symbol (©)</h2>
+            <pre class="language-html"><code>&amp;copy</code></pre></br> 
+
+            <h2>Less than (&lt;)</h2>
+            <pre class="language-html"><code>&amp;lt</code></pre></br>
+
+            <h2>Greater than (>)</h2>
+            <pre class="language-html"><code>&amp;gt;</code></pre></br>
+
+            <h2>Ampersand (&)</h2>
+            <pre class="language-html"><code>&amp;amp;</code></pre></br>
+
+            <h2>Dollar ($)</h2>
+            <pre class="language-html"><code>&amp;dollar;</code></pre></br>
+
+            <h2>Random Text</h2>
+            <p>Elon Musk</p></br>
+            <pre class="language-html"><code>Elon Reeve Musk FRS is an entrepreneur and business magnate. He is the founder, CEO, and Chief Engineer at SpaceX; early stage investor, CEO, and Product Architect of Tesla, Inc.; founder of The Boring Company; and co-founder of Neuralink and OpenAI. A centibillionaire, Musk is one of the richest people in the world.</code></pre></br>
+
+            <!-- Semantic Elements -->
+
+            <h2>Semantic Elements</h2>
+            <p>Semantic elements are those elements that are self describable, i.e., from their name itself, you can understand their meaning.</p></br>
+
+            <strong>
+                <li> &lt;nav&gt; Tag </li>
+            </strong>
+            <p>The &lt;nav&gt; element defines a set of navigation links.</p></br>
+            <pre class="language-html"><code>&lt;nav&gt;
+    &lt;a href="/html/"&gt;HTML&lt;/a&gt; |
+    &lt;a href="/css/"&gt;CSS&lt;/a&gt; |
+    &lt;a href="/js/"&gt;JavaScript&lt;/a&gt; |
+    &lt;a href="/jquery/"&gt;jQuery&lt;/a&gt;
+&lt;/nav&gt;</code></pre></br>
+            
+            <strong>
+                <li> &lt;section&gt; Tag </li>
+            </strong>
+            <p>It defines a section in the document</p></br>
+            <pre class="language-html"><code>&lt;section&gt;
+    &lt;h1&gt;WWF&lt;/h1&gt;
+    &lt;p&gt;The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.&lt;/p&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+    &lt;h1&gt;WWF's Panda symbol&lt;/h1&gt;
+    &lt;p&gt;The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.&lt;/p&gt;
+&lt;/section&gt;</code></pre></br>
+
+            <h2></h2>
+            <strong>
+                <li> &lt;article&gt; Tag </li>
+            </strong>
+            <p>It represents self-contained content</p></br>
+            <pre class="language-html"><code>&lt;article&gt;
+    &lt;h2&gt;Google Chrome&lt;/h2&gt;
+    &lt;p&gt;Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;
+    &lt;/article&gt;
+                
+    &lt;article&gt;
+    &lt;h2&gt;Mozilla Firefox&lt;/h2&gt;
+    &lt;p&gt;Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.&lt;/p&gt;
+&lt;/article&gt;</code></pre></br>
+
+            <h2></h2>
+            <strong>
+                <li> &lt;aside&gt; Tag </li>
+            </strong>
+            <p>It is used to place content in the sidebar</p></br>
+            <pre class="language-html"><code>&lt;p&gt;My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!&lt;/p&gt;
+&lt;aside&gt;
+&lt;h4&gt;Epcot Center&lt;/h4&gt;
+&lt;p&gt;Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.&lt;/p&gt;
+&lt;/aside&gt;</code></pre></br>    
+
+            <h2></h2>
+            <strong>
+                <li> &lt;figure&gt; Tag </li>
+                <li> &lt;figcaption&gt; Tag </li>
+            </strong>
+            <p>The &lt;figure&gt; tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</p>
+            <p>The &lt;figcaption&gt; tag defines a caption for a &lt;figure&gt; element. The &lt;figcaption&gt; element can be placed as the first or as the last child of a &lt;figure&gt; element.</p></br>
+            <pre class="language-html"><code>&lt;figure&gt;
+    &lt;img src="pic_trulli.jpg" alt="Trulli"&gt;
+    &lt;figcaption&gt;Fig1. - Trulli, Puglia, Italy.&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre></br>          
+
+            <strong>
+                <li> &lt;footer&gt; Tag </li>
+            </strong>
+            <p>The &lt;footer&gt; element defines a footer for a document or section.</p>
+            <p>You can have several &lt;footer&gt; elements in one document.</p></br>
+            <pre class="language-html"><code>&lt;footer&gt;
+    &lt;p&gt;Author: Hege Refsnes&lt;/p&gt;
+    &lt;p&gt;&lt;a href="mailto:hege@example.com"&gt;hege@example.com&lt;/a&gt;&lt;/p&gt;
+&lt;/footer&gt;</code></pre></br>            
+            
+
+            <!-- Download this Cheatsheet -->
+
+            <span>
+                Download this Cheatsheet as 
+                <a href="RRcheatsheet.pdf"> pdf</a>
+            </span><br><br>
+    
+            <span>
+                Click "Img" to 'save image as'... 
+                <a href="imgCheatsheet.webp">Img</a>
+            </span>
+    </div>  
+</body> 
+</html>
